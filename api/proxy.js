@@ -16,4 +16,5 @@ export default async (req, res) => {
   } else {
     res.status(405).json({ status: "error", message: "Method Not Allowed" });
   }
+  console.log(data); // log data response
 };
