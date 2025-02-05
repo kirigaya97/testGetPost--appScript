@@ -1,7 +1,7 @@
 export default async (req, res) => {
   if (req.method === "POST") {
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbyzwNUuRPbCIQR7ftiVQR15Ul3T6GqAp0W67jqQRiZnVgQA_54kYY1--QpOVHZKhIRC/exec", {
+      const response = await fetch("https://0e0b1395-6661-4929-8ca9-13bf5982a2ea.mock.pstmn.io", {
         method: "POST",
         body: JSON.stringify(req.body),
         headers: {
