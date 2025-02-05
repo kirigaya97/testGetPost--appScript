@@ -44,7 +44,7 @@
             "Content-Type": "application/json",
           },
         });
-
+        console.log(JSON.stringify(formData)); // console log form data
         const result = await response.json();
         console.log(result);
         alert(result.status === "success" ? "Data submitted successfully!" : "Error: " + result.message);
